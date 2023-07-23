@@ -13,7 +13,7 @@ npm start
 
 ```bash
 docker build -t ram:latest .
-docker run -it -p 8080:8080 --name ram-service ram:latest
+docker run -it -p 3000:3000 --name ram-service ram:latest
 ```
 
 ## Run on Cloud Foudry
